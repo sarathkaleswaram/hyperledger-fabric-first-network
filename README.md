@@ -1,7 +1,7 @@
 ## First-Network
 
 ```
-cryptogen generate –config=./crypto-config.yaml
+cryptogen generate --config=./crypto-config.yaml
 
 configtxgen -profile TwoOrgsOrdererGenesis -channelID byfn-sys-channel -outputBlock ./channel-artifacts/genesis.block
 
